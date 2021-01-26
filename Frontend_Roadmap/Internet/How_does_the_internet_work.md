@@ -82,8 +82,9 @@
 
 <hr>
 
-###참고
+### 참고
 <a href="https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%EB%84%B7">인터넷 [위키백과]</a>
+
 <a href="https://developer.mozilla.org/ko/docs/Learn/Common_questions/How_does_the_Internet_work#%EC%BB%B4%ED%93%A8%ED%84%B0_%EC%B0%BE%EA%B8%B0">인터넷은 어떻게 동작하는가? [MDN]</a>
 
 <br>

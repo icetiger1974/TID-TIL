@@ -40,3 +40,12 @@
 8. 이를 수신한 `Local DNS`는 `www.naver.com 의 IP` 주소를 캐싱을 하고 이후 다른 요청이 있을시 응답할 수 있도록 IP 주소 정보를 단말(PC)에 전달해 준다.
 
 > Local DNS 서버가 여러 DNS 서버에 차례대로 (Root DNS 서버 -> com DNS 서버 -> `naver.com` DNS 서버) 요청하여 그 답을 찾는 과정을 Recursive Query 라고 부른다.
+
+### 참고
+<a href="https://ko.wikipedia.org/wiki/%EB%8F%84%EB%A9%94%EC%9D%B8_%EB%84%A4%EC%9E%84_%EC%8B%9C%EC%8A%A4%ED%85%9C">도메인 네임 시스템 [위키백과]</a>
+
+<a href="https://www.netmanias.com/ko/post/blog/5353/dns/dns-basic-operation">DNS 기본 동작 설명 [NETMANIAS]</a>
+
+<br>
+<br>
+<br>

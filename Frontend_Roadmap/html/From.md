@@ -21,3 +21,20 @@ form 태그에는 `action`,`method`,`enctype` 속성이 있다.
 
 이렇게 form은 자신의 태그 안에 있는 input 태그들의 정보들을 모아 action에 설정된 url로 method에 정의된 방식으로 데이터를 enctype에 따라 보내게 된다.
 위 코드는 첫번째 input인 id에 적은 값을 url로 보낸다. 하지만 action에 url을 지정하지 않았기에 아무일도 일어나지 않는다.
+
+## 유효성검사
+
+>웹 표준은 월드 와이드 웹의 측면을 서술하고 정의하는 공식 표준이나 다른 기술 규격을 가리키는 일반적인 용어이다. 최근에 이 용어는 웹 사이트를 작성하는 데 중요도가 높아지고 있으며 웹 디자인, 개발과 관계가 있다. - [위키백과]
+
+즉 웹 표준을 지킨다는 것은 어느 브라우저를 사용하는지 여부에 상관없이 그 웹페이지가 똑같이 보이고 정상적으로 작동한다는 것이다.
+
+> http://validator.w3.org/ 여기서 웹 유효성 검사를 할 수 있다.
+
+<hr>
+### 참고
+<a href="https://ko.wikipedia.org/wiki/%EC%9B%B9_%ED%91%9C%EC%A4%80">웹 표준 [위기백과]</a>
+
+<a href="https://velog.io/@goban/HTML%ED%8F%BC%EA%B3%BC-%EC%9C%A0%ED%9A%A8%EC%84%B1%EA%B2%80%EC%82%AC">웹 HTML폼과 유효성검사 [이명환]</a>
+<br>
+<br>
+<br>

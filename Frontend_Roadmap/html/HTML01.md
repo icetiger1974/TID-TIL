@@ -87,3 +87,45 @@ HTML에는 닫히는 개념이 없는 태그들 존재한다.
 * `<h1>`태그과 `<ul>`태그는 `<section>`의 자식 요소이다.
 * `<li>`태그는 `<ul>`태그의 자식 요소이다.
 * `<section>`은 `<li>`태그의 조상(상위) 요소, 반대로 `<li>`태그는 `<section>`태그의 후손(하위) 요소이다.
+
+## HTML 문서의 범위
+
+> 예시 HTML 코드
+>```html
+><!DOCTYPE html>
+><html>
+><head>
+>    <meta charset="UTF-8">
+>    <meta name="author" content="유영재">
+>    <meta name="description" content="예시 HTML">
+>    <title>index</title>
+>    <link rel="stylesheet" href="./css/style.css">
+>    <script src="./js/script.js"></script>
+></head>
+><body>
+>    <section>
+>      <h1></h1>
+>      <div>
+>        <ul>
+>          <li></li>
+>          <li></li>
+>        </ul>
+>      </div>
+>    </section>
+></body>
+></html>
+>```
+
+### DOCTYPE(DTD, 버전 지정)
+DOCTYPE(DTD, Document Type Definition)은 마크업 언어에서 문서 형식을 정의한다.
+이는 웹 브라우저에 우리가 제공할 HTML 문서를 어떤 HTML 버전의 해석 방식으로 구조화하면 되는지를 알려준다. (HTML은 크게 1, 2, 3, 4, X-, 5 버전이 존재한다.)
+>현재의 표준 모드는 HTML5 이
+
+### HTML(전체 범위)
+`<html>`는 HTML 문서의 전체 범위를 지정한다.
+웹 브라우저가 해석해야 할 HTML 문서가 어디에서 시작하며, 어디에서 끝나는지 알려주는 역할을 한다.
+
+### BODY(구조 범위)
+웹 브라우저가 해석해야 할 HTML 문서의 구조 범위를 지정한다.
+구조는 사용자가 화면을 통해서 볼 수 있는 내용(콘텐츠)의 형태나 레이아웃 등을 의미하며 로고, 헤더, 푸터, 내비게이션, 메뉴, 버튼, 입력창, 팝업, 광고 등 보이는 모든 것들이 구조에 해당한다.
+구조는 BODY 범위 안에서만 생성한다.

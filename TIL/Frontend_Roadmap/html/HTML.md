@@ -145,7 +145,7 @@ DOCTYPE(DTD, Document Type Definition)은 마크업 언어에서 문서 형식�
 이는 웹 브라우저에 우리가 제공할 HTML 문서를 어떤 HTML 버전의 해석 방식으로 구조화하면 되는지를 알려준다. (HTML은 크게 1, 2, 3, 4, X-, 5 버전이 존재한다.)
 
 > 현재의 표준 모드는 HTML5 이
- 
+
 ### HTML(전체 범위)
 
 `<html>`는 HTML 문서의 전체 범위를 지정한다.

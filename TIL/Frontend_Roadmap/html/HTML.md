@@ -138,7 +138,7 @@ HTML에는 닫히는 개념이 없는 태그들 존재한다.
 >   </body>
 > </html>
 > ```
-
+ 
 ### DOCTYPE(DTD, 버전 지정)
 
 DOCTYPE(DTD, Document Type Definition)은 마크업 언어에서 문서 형식을 정의한다.

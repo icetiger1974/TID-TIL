@@ -231,7 +231,7 @@ font: font-style font-variant font-weight font-size/line-height font-family
 - 900: bolder
 #### font-size
 글자 크기로, `<font>` 태그의 size 속성과 효과가 같다.
-(HTML5 부터 `<font>` 태그 사용은 권장되지 않으며, CSS를 사용해야 합니다)
+(HTML5 부터 `<font>` 태그 사용은 권장되지 않으며, CSS를 사용해야 한다.)
 
 `px`, `px`, `em`, 등의 단위와 `small`, `big` 등의 상수 크기를 사용할 수 있다.
 (일반 웹 페이지에서는 px 사용)

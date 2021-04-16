@@ -79,7 +79,7 @@ div {
     <div class="child">200px child</div>
 </div>
 ```
-출력 결과
+출력 결과 <br>
 <img src="../../img/box_sizing_ex.png">
 
 ### border-box
@@ -105,7 +105,7 @@ div {
     <div class="child">200px child</div>
 </div>
 ```
-출력 결과
+출력 결과 <br>
 <img src="../../img/border_box_ex.png">
 
 ### content-box에서 width:100%일 때의 문제
@@ -150,7 +150,7 @@ div {
 </div>
 ```
 
-출력 결과
+출력 결과 <br>
 <img src="../../img/content_box.png">
 
 ### color

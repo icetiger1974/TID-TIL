@@ -79,7 +79,7 @@ div {
     <div class="child">200px child</div>
 </div>
 ```
-출력 결과
+출력 결과 <br>
 <img src="../../img/box_sizing_ex.png">
 
 ### border-box
@@ -105,7 +105,7 @@ div {
     <div class="child">200px child</div>
 </div>
 ```
-출력 결과
+출력 결과 <br>
 <img src="../../img/border_box_ex.png">
 
 ### content-box에서 width:100%일 때의 문제
@@ -150,7 +150,7 @@ div {
 </div>
 ```
 
-출력 결과
+출력 결과 <br>
 <img src="../../img/content_box.png">
 
 ### color
@@ -231,7 +231,7 @@ font: font-style font-variant font-weight font-size/line-height font-family
 - 900: bolder
 #### font-size
 글자 크기로, `<font>` 태그의 size 속성과 효과가 같다.
-(HTML5 부터 `<font>` 태그 사용은 권장되지 않으며, CSS를 사용해야 합니다)
+(HTML5 부터 `<font>` 태그 사용은 권장되지 않으며, CSS를 사용해야 한다.)
 
 `px`, `px`, `em`, 등의 단위와 `small`, `big` 등의 상수 크기를 사용할 수 있다.
 (일반 웹 페이지에서는 px 사용)
@@ -255,3 +255,26 @@ font: font-style font-variant font-weight font-size/line-height font-family
     font: italic bold 12px/30px Dotum, sans-serif 
 }
 ```
+
+## text-align
+`text-align` 속성은 텍스트의 정렬 방향을 의미한다.
+- left: 왼쪽 정렬
+- right: 오른쪽 정렬
+- center: 중앙 정렬
+- justify: 양쪽 정렬 (자동 줄바꿈시 오른쪽 경계선 부분 정리)
+
+
+예시 코드
+```css
+#box1 { 
+    text-align: right; 
+}
+#box2 { 
+    text-align: left; 
+}
+#box3 { 
+    text-align: center; 
+}
+```
+
+<a href="./attribute2.md">다음 파일</a>

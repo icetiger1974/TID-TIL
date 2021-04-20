@@ -1,7 +1,8 @@
 <a href="./attribute1.md">이전 파일</a>
+<a href="./attribute3.md">다음 파일</a>
 
 ## background
-
+ㅍ
 `background` 속성은 태그의 배경을 지정하는 속성으로, `font `속성과 비슷하게 세부적인 속성들을 한번에 쓸 수 있는 속성이다.
 
 - `background-color`: 배경 색
@@ -106,6 +107,7 @@
 
 `margin`, `padding` 속성에서 지정했던 것과 비슷하게 띄어쓰기를 기준으로 `x좌표`, `y좌표`를 지정한다. 픽셀 뿐만 아니라 `left`, `top`, `center`, `bottom`, `right` 등의 상수도 쓸 수 있다.
 
+예시코드
 ```html
 <style>
 	.abox{
@@ -142,3 +144,5 @@
 <img src="../../img/background_position.png">
 
 
+<a href="./attribute1.md">이전 파일</a>
+<a href="./attribute3.md">다음 파일</a>

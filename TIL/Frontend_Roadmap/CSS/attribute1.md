@@ -16,6 +16,7 @@ div {
     width: 100px; height: 60px 
 }
 ```
+<hr>
 
 ## margin, padding 
 
@@ -47,8 +48,9 @@ div {
     padding-right: 40px;
 }
 ```
+<hr>
 
-### box-sizing
+## box-sizing
 `CSS`에서 `width`와 `height`를 계산하는 방법은 꽤 독특합하다. `width: 200px` 이고 `height: 100px`, `padding: 20px`, `border: 5px solid black`인 요소는 화면상에 어떻게 나타날까?
 
 <img src="../../img/box_sizing.png">
@@ -153,7 +155,8 @@ div {
 출력 결과 <br>
 <img src="../../img/content_box.png">
 
-### color
+<hr>
+## color
 color 속성은 단어 뜻대로 색상, 정확히는 글자의 색상을 의미한다.
 
 - red, blue등 이미 정의된 색
@@ -255,6 +258,7 @@ font: font-style font-variant font-weight font-size/line-height font-family
     font: italic bold 12px/30px Dotum, sans-serif 
 }
 ```
+<hr>
 
 ## text-align
 `text-align` 속성은 텍스트의 정렬 방향을 의미한다.
@@ -276,5 +280,6 @@ font: font-style font-variant font-weight font-size/line-height font-family
     text-align: center; 
 }
 ```
+<hr>
 
 <a href="./attribute2.md">다음 파일</a>

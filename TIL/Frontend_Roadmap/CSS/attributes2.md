@@ -284,5 +284,7 @@ left와 right를 통해 부유속성을 지정시 `display`는 무시된다. (`n
 }
 ```
 
+<hr>
+
 <a href="./attribute1.md">이전 파일</a>
 <a href="./attribute3.md">다음 파일</a>

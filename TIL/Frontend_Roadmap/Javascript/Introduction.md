@@ -230,7 +230,7 @@ var removedItem = fruits.splice(1, 2); // 1번 인덱스부터 2개 제거
 
 <hr>
 
-## 배열
+## 객체
 
 `JavaScript`에서 **객체**는 매우 중요한 개념이다. `JavaScript`의 자료형은 `Primitive` 타입과 `Object` 타입이 있다고 했는데, 다시 말하면 `Primitive` 타입 이외의 모든 변수는 객체 타입이라는 말이다.
 

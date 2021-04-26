@@ -67,6 +67,8 @@ var a;
 // var b;
 ```
 
+<hr>
+
 ## 자료형
 
 `JavaScript`는 동적타입 언어라고 설명했다.
@@ -86,6 +88,8 @@ var a;
 #### Object 타입 자료형
 `Reference` 타입이라고도 한다.
 `Object` 클래스 뿐만 아니라, **배열**과 **함수**, 사용자 정의 **클래스**도 모두 `Object`에 포함된다.
+
+<hr>
 
 ## 숫자형 변수
 
@@ -116,6 +120,7 @@ Infinity
 
 `JavaScript`는 일반적인 문자열(String)을 지원하는 대부분의 언어들처럼 문자형 자료형을 지원한다.
 > TMI) C언어는 문자열(String)을 지원하지 않는다. ㅋㅋ
+
 자바스크립트에서는 `char`형이 존재하지 않아 `"` 혹은 `'`중 어떤 것으로 감싸도 문자열로 만들어진다.
 
 ```js
@@ -146,8 +151,10 @@ var myString = "first line\nsecond line\nthird line";
 ```js
 > "a" + "b"
 ab
+
 > "my age is " + 20
 my age is 20
+
 > "today is " + new Date()
 today is Sat Feb 11 2017 21:06:27 GMT+0900 (KST)
 ```
@@ -216,6 +223,7 @@ console.log( colors.indexOf('red') );
 ```
 fruits = ['red', 'blue', 'green', 'yellow'];
 var removedItem = fruits.splice(1, 2); // 1번 인덱스부터 2개 제거
+
 // fruits: ['red', 'yellow']
 // removedItem: ['blue', 'green']
 ```

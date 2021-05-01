@@ -59,6 +59,7 @@
 
 <hr>
 ### 참고
+
 <a href="https://d2.naver.com/helloworld/59361">브라우저는 어떻게 동작하는가? [NAVER D2]</a>
 
 <a href="https://www.youtube.com/watch?v=cCbAJY1riDc">웹 브라우저의 기본 원리 [두원이 Doowonee YouTube]</a>

@@ -119,24 +119,24 @@
 > `ChildrenProps.js`
 >
 > ```js
-> import React from 'react'
+> import React from "react";
 >
 > const ChildrenProps = (props) => {
->     return (
->         <>
->         <div>childrenProps는 {props.children} 입니다.</div>
->         </>
->     )
-> }
+>   return (
+>     <>
+>       <div>childrenProps는 {props.children} 입니다.</div>
+>     </>
+>   );
+> };
 >
-> export default ChildrenProps
+> export default ChildrenProps;
 > ```
 >
 > `ChildrenProps` 컴포넌트 사이에 작성한 "자바스크립트" 라는 문자열을 `ChildrenProps` 컴포넌트 내부에서 보여주려면 `props.children` 을 이용해야 한다.
 
 ### 비구조화 할당으로 props 내부 값 추출
 
-컴포넌트에서  `props` 값을 조회할 때마다 `props.name`,`props.children`과 같이 "`props.`"이라는 키워드를 앞에 붙이고 있다. 이러한 작업을 더 편하게 하기 위해 ES6의 비구조화 할당 문법을 사용하여 내부 값을 바로 추출하는 방법이 있다.
+컴포넌트에서 `props` 값을 조회할 때마다 `props.name`,`props.children`과 같이 "`props.`"이라는 키워드를 앞에 붙이고 있다. 이러한 작업을 더 편하게 하기 위해 ES6의 비구조화 할당 문법을 사용하여 내부 값을 바로 추출하는 방법이 있다.
 
 > `App.js`
 >
@@ -159,25 +159,25 @@
 > }
 >
 > export default App;
->
 > ```
+>
 > `DestructuringAssignment.js`
 >
 > ```js
->    import React from "react";
+> import React from "react";
 >
 > const DestructuringAssignment = (props) => {
 >   const { dogName, dogAge } = props;
 >   return (
 >     <>
 >       <div>
->           강아지 이름은 {dogName} 이고 {dogAge}살 입니다.
+>         강아지 이름은 {dogName} 이고 {dogAge}살 입니다.
 >       </div>
 >     </>
 >   );
 > };
 >
 > export default DestructuringAssignment;
->
 > ```
+>
 > 이렇게 비구조화 할당을 이용하여 `props`를 사용하면 훨씬 편하다.
